@@ -1,2 +1,0 @@
-# hesaplama-api
-komisyonhesaplama

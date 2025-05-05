@@ -3,6 +3,8 @@ from flask import Flask, request, jsonify
 app = Flask(__name__)
 
 @app.route('/hesapla', methods=['POST'])
+def home():
+    return jsonify({"message": "API çalışıyor!"})
 def hesapla():
     data = request.json
 
